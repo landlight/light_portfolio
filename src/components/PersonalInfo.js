@@ -18,7 +18,7 @@ const center = {
 function Personalinfo(props) {
     return (
       <Container>
-        <Row><img src={image} class="profile" style={rowStyle}/></Row>
+        <Row><img src={image} class="profile" style={rowStyle} alt="profile"/></Row>
         <Row style={rowStyle}>Chit Khine</Row>
         <Row style={rowStyle}>+66958163472</Row>
         <Row style={rowStyle}>ck.light@gmail.com</Row>

@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container, Row } from 'reactstrap';
 
 function Profile(props) {
   return (
