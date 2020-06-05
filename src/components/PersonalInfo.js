@@ -15,6 +15,10 @@ const rowStyle = {
 const center = {
   'text-align': 'center'
 }
+const icon = {
+  'width': '25px',
+  'height': '25px'
+}
 function Personalinfo(props) {
     return (
       <Container>
@@ -25,17 +29,17 @@ function Personalinfo(props) {
         <Row style={rowStyle}>
           <Col xs="4" style={center}>
             <a href="https://github.com/landlight" target="_blank" style={black}>
-              <FaGithub />
+              <FaGithub style={icon}/>
             </a>    
           </Col>
           <Col xs="4" style={center}>
             <a href="https://gitlab.com/landlight" target="_blank" style={orange}>
-              <FaGitlab />
+              <FaGitlab style={icon}/>
             </a>  
           </Col>
           <Col xs="4" style={center}>
             <a href="https://www.linkedin.com/in/chit-khine-891a82b5/" target="_blank">
-              <FaLinkedin />
+              <FaLinkedin style={icon}/>
             </a>
           </Col>
         </Row> 

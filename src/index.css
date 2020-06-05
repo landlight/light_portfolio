@@ -28,9 +28,15 @@ code {
   width: 200px;
 }
 
-.content {
+.home {
+  min-height: 20vh;
+  padding-bottom: 1vh;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgba(250, 250, 250, 0.61);
 }
 
 .topnav {
@@ -39,6 +45,10 @@ code {
   top: 0;
   width: 100%;
   background-color: #333;
+}
+
+.main {
+  margin-top: 25px;
 }
 
 .topnav a {
@@ -52,11 +62,23 @@ code {
 }
 
 .topnav a:hover {
-  color: #4CAF50;
+  color: #33A1FF;
 }
 
 .topnav a.active {
-  color: #4CAF50;
+  color: #33A1FF;
+}
+
+.topnav a:not([href]) {
+  color: #FFFFFF;
+}
+
+.topnav a:hover:not([href]) {
+  color: #33A1FF;
+}
+
+.topnav a.active:not([href]) {
+  color: #33A1FF;
 }
 
 .topnav .icon {
@@ -87,4 +109,15 @@ code {
 
 html {
   scroll-behavior: smooth;
+}
+
+.mainProfile {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.home {
+  margin-top: 80px;
 }

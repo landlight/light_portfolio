@@ -20,11 +20,7 @@ function NavBar(props) {
     'home'
   )
   function activeClass(id) {
-    if (active == id) {
-      let divHeight = document.getElementById(id);
-      if (divHeight) {
-        window.scrollTo(0, divHeight.offsetTop);
-      }
+    if (active === id) {
       return 'active';
     }
   }
@@ -36,11 +32,17 @@ function NavBar(props) {
       x.className = "topnav";
     }
   }
-  
+  function scrollActive(id) {
+    let divHeight = document.getElementById(id);
+    if (divHeight) {
+      window.scrollTo(0, divHeight.offsetTop-53);
+    }
+    setActive(id);
+  }
   return (
     <div className="topnav" id="myTopnav">
       {props.navItems.map(item => (
-        <a href={item.href} className={activeClass(item.id)} onClick={() => setActive(item.id)} >{item.name}</a> 
+        <a className={activeClass(item.id)} onClick={() => scrollActive(item.id)} >{item.name}</a> 
       ))}
       <a href="javascript:void(0);" className="icon" onClick={myFunction}>
         <FaBars />
