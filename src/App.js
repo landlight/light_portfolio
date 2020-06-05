@@ -6,6 +6,7 @@ import './App.css';
 // import Education from './components/Education';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
+import Portfolio from './components/Portfolio';
 
 // const porto = {
 //   'border': '1px solid black',
@@ -16,7 +17,7 @@ import Home from './components/Home';
 function App() {
   const navItems= [
     {id: 'home', name: 'Home', href: '#home'},
-    // {id: 'portfolio', name: 'Portfolio', href: '#portfolio'},
+    {id: 'portfolio', name: 'Portfolio', href: '#portfolio'},
     // {id: 'experience', name: 'Experience', href: '#experience'},
     // {id: 'skills', name: 'Skills', href: '#skills'},
     // {id: 'education', name: 'Education', href: '#education'},
@@ -28,6 +29,9 @@ function App() {
       <main className="main">
         <div id="home" className="home" >
           <Home />
+        </div>
+        <div id="portfolio" className="portfolio">
+          <Portfolio />
         </div>
         {/* <div id="portfolio" style={porto}>
           <Card style={cardStyle}>

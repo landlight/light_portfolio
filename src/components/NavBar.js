@@ -1,20 +1,6 @@
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 
-const navDisplayStyle = {
-  'display': 'flex',
-  'flex-direction': 'row',
-  'justify-content': 'center',
-  'background-color': '#2c3e50',
-}
-
-const headingStyle = {
-  'min-width': '100px',
-  'padding': '15px',
-  'color': '#FFFFFF',
-  'border': '1px solid lightgrey'
-}
-
 function NavBar(props) {
   const [active, setActive] = useState(
     'home'
