@@ -7,6 +7,8 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Home from './components/Home';
 import Portfolio from './components/Portfolio';
+import Experience from './components/Experience';
+import Skills from './components/Skills';
 
 // const porto = {
 //   'border': '1px solid black',
@@ -19,9 +21,8 @@ function App() {
     {id: 'home', name: 'Home', href: '#home'},
     {id: 'portfolio', name: 'Portfolio', href: '#portfolio'},
     // {id: 'experience', name: 'Experience', href: '#experience'},
-    // {id: 'skills', name: 'Skills', href: '#skills'},
+    {id: 'skills', name: 'Skills', href: '#skills'},
     // {id: 'education', name: 'Education', href: '#education'},
-    // {id: 'contact', name: 'Contact', href: '#contact'},
   ];
   return (
     <div className="App">
@@ -30,8 +31,14 @@ function App() {
         <div id="home" className="home" >
           <Home />
         </div>
-        <div id="portfolio" className="portfolio">
+        <div id="portfolio" className="containers">
           <Portfolio />
+        </div>
+        {/* <div id="experience" className="containers">
+          <Experience />
+        </div> */}
+        <div id="skills" className="containers">
+          <Skills />
         </div>
         {/* <div id="portfolio" style={porto}>
           <Card style={cardStyle}>
@@ -41,9 +48,7 @@ function App() {
           </Card>
         </div>
       
-        <div id="experience" style={porto}>
-            <span >exp</span>
-        </div>
+        
         <div id="skills" style={porto}>
           <span >ssk</span>
         </div>
