@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaGitlab, FaLinkedin } from 'react-icons/fa';
 import { Row, Col } from 'reactstrap';
-import image from '../ck.jpg';
+import image from '../../ck.jpg';
 
 const style = {
   'padding-top': '10px',

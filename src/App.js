@@ -5,10 +5,10 @@ import './App.css';
 // import Personalinfo from './components/PersonalInfo';
 // import Education from './components/Education';
 import NavBar from './components/NavBar';
-import Home from './components/Home';
-import Portfolio from './components/Portfolio';
-import Experience from './components/Experience';
-import Skills from './components/Skills';
+import Home from './components/sections/Home';
+import Portfolio from './components/sections/Portfolio';
+import Experience from './components/sections/Experience';
+import Skills from './components/sections/Skills';
 
 // const porto = {
 //   'border': '1px solid black',
