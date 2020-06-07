@@ -119,11 +119,8 @@ html {
   color: rgba(250, 250, 250, 0.61);
 }
 
-.portfolio {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  padding: 12vh;
+.containers {
+  padding: 8vh;
   margin: 30px;
 }
 
@@ -145,6 +142,10 @@ html {
   padding-left: 15px;
 }
 
+.skilllist {
+  text-align: left;
+}
+
 @media screen and (max-width: 600px) {
   .personalinfo {
     padding-left: 0px;
@@ -154,4 +155,10 @@ html {
     padding-left: 0px;
     width: 100%;
   }
+}
+
+.skillsboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
