@@ -38,6 +38,7 @@ function Education() {
                 <h5>Master Degree</h5>
               </div>
               <h5 style={titleStyle}>Master of Science (IT in Software Engineering)</h5>
+              <h5 style={titleStyle}>Assumption University of Thailand</h5>
               <p style={personalStyle}><FaChevronRight /> Scholarship by Intelligent Systems Laboratory</p>
               <p style={personalStyle}><FaChevronRight /> GPA - 3.81</p>
             </li>
@@ -49,6 +50,7 @@ function Education() {
                 <h5>Bachelor Degree</h5>
               </div>
               <h5 style={titleStyle}>Bachelor of Science (Computer Science)</h5>
+              <h5 style={titleStyle}>Assumption University of Thailand</h5>
               <p style={personalStyle}><FaChevronRight /> Scholarship by TICA (Thailand International Cooperation Agency)</p>
               <p style={personalStyle}><FaChevronRight /> GPA - 3.76</p>
               <p style={personalStyle}><FaChevronRight /> Honors</p>
