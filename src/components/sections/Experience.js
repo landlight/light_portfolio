@@ -30,7 +30,7 @@ function Experience() {
           <ul class="timeline"> 
             <li>
               <div className="content" style={contentTitle}>
-                <h5>2019 April - Present</h5>
+                <h5>2019 Apr - Present</h5>
                 <h5>FullStack Developer</h5>
               </div>
               <h5 style={titleStyle}>Zon Radius Company Ltd.</h5>
@@ -43,7 +43,7 @@ function Experience() {
           <ul class="timeline"> 
             <li>
               <div className="content" style={contentTitle}>
-                <h5>2018 September - 2019 February</h5>
+                <h5>2018 Sep - 2019 Feb</h5>
                 <h5>Private Tutor</h5>
               </div>
               <h5 style={titleStyle}>Freelance</h5>
@@ -55,7 +55,7 @@ function Experience() {
           <ul class="timeline"> 
             <li>
               <div className="content" style={contentTitle}>
-                <h5>2015 April - 2018 June</h5>
+                <h5>2015 Apr - 2018 Jun</h5>
                 <h5>Research Assistant (Backend Developer)</h5>
               </div>
               <h5 style={titleStyle}>Intelligent Systems Laboratory (Assumption University)</h5>
@@ -70,7 +70,7 @@ function Experience() {
           <ul class="timeline"> 
             <li>
               <div className="content" style={contentTitle}>
-                <h5>2015 April - 2018 June</h5>
+                <h5>2015 Jan - 2015 Apr</h5>
                 <h5>Intern (Android Developer)</h5>
               </div>
               <h5 style={titleStyle}>Intelligent Systems Laboratory (Assumption University)</h5>
