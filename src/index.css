@@ -235,4 +235,17 @@ ul.timeline>li:before {
   .skillsboarditem {
     width: 100%
   }
+  .exp {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .expItemLeft {
+    width: 100%
+  }
+  
+  .expItemRight {
+    width: 100%;
+  }
 }
