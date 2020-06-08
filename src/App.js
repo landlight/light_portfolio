@@ -13,7 +13,7 @@ function App() {
     {id: 'portfolio', name: 'Portfolio', href: '#portfolio'},
     {id: 'experience', name: 'Experience', href: '#experience'},
     {id: 'skills', name: 'Skills', href: '#skills'},
-    // {id: 'education', name: 'Education', href: '#education'},
+    {id: 'education', name: 'Education', href: '#education'},
   ];
   return (
     <div className="App">
