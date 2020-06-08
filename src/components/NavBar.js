@@ -30,7 +30,7 @@ function NavBar(props) {
       {props.navItems.map(item => (
         <a className={activeClass(item.id)} onClick={() => scrollActive(item.id)} >{item.name}</a> 
       ))}
-      <a href="javascript:void(0);" className="icon" onClick={myFunction}>
+      <a className="icon" onClick={myFunction}>
         <FaBars />
       </a>
     </div>
