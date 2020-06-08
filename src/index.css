@@ -12,22 +12,6 @@ code {
     monospace;
 }
 
-.mycard {
-  margin: 10px;
-  border: 1px solid grey;
-  padding: 10px;
-  box-shadow: 1px grey;
-  color: black;
-  font-weight: 500;
-  height: auto;
-  width: max-content;
-  text-align: left;
-}
-
-.profile {
-  width: 200px;
-}
-
 .topnav {
   overflow: hidden;
   position: fixed;
@@ -176,14 +160,14 @@ ul {
   padding-inline-start: 40px;
 }
 ul.timeline:before {
-    content: ' ';
-    background: lightskyblue;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
-    width: 2px;
-    height: 100%;
-    z-index: 400;
+  content: ' ';
+  background: lightskyblue;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
 }
 ul.timeline>li {
   margin: 20px 0;
@@ -240,15 +224,12 @@ ul.timeline>li:before {
     flex-wrap: wrap;
     text-align: left;
   }
-  
   .expItemLeft {
     width: 100%
   }
-  
   .expItemRight {
     width: 100%;
   }
-
   .containers {
     padding: 5vh;
     margin: 10px;
