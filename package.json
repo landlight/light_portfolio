@@ -1,6 +1,6 @@
 {
   "name": "light_portfolio",
-  "version": "1.0",
+  "version": "1.0.0",
   "private": true,
   "homepage": "https://landlight.github.io/light_portfolio",
   "dependencies": {
