@@ -34,8 +34,8 @@ function Education() {
           <ul class="timeline"> 
             <li>
               <div className="content" style={contentTitle}>
-                <h5>2015 September - 2018 June</h5>
-                <h5>Master Degree (Assumption University)</h5>
+                <h5>2015 Sep - 2018 Jun</h5>
+                <h5>Master Degree</h5>
               </div>
               <h5 style={titleStyle}>Master of Science (IT in Software Engineering)</h5>
               <p style={personalStyle}><FaChevronRight /> Scholarship by Intelligent Systems Laboratory</p>
@@ -63,8 +63,9 @@ function Education() {
             <li>
               <div className="content" style={contentTitle}>
                 <h5>2011</h5>
-                <h5>International Advanced Diploma in Computer Studies</h5>
+                <h5>Diploma</h5>
               </div>
+              <h5 style={titleStyle}>International Advanced Diploma in Computer Studies</h5>
               <h5 style={titleStyle}>NCC Education University of Greenwich, United Kingdom</h5>
             </li>
           </ul>
@@ -72,8 +73,9 @@ function Education() {
             <li>
               <div className="content" style={contentTitle}>
                 <h5>2010</h5>
-                <h5>International Diploma in Computer Studies</h5>
+                <h5>Diploma</h5>
               </div>
+              <h5 style={titleStyle}>International Diploma in Computer Studies</h5>
               <h5 style={titleStyle}>NCC Education University of Greenwich, United Kingdom</h5>
             </li>
           </ul>
