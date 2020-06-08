@@ -123,6 +123,20 @@ html {
   padding-left: 15px;
 }
 
+.expTimelineLeft {
+  display: inline-block;
+  width: 50%;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.expTimelineRight {
+  display: inline-block;
+  width: 50%;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
 .skilllist {
   text-align: left;
 }
@@ -131,6 +145,60 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+
+.exp {
+  display: flex;
+  flex-direction: row;
+}
+
+.expItemLeft {
+  width: 50%
+}
+
+.expItemRight {
+  width: 50%;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+ul.timeline:before {
+    content: ' ';
+    background: lightskyblue;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline>li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline>li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid lightskyblue;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
 }
 
 @media screen and (max-width: 600px) {

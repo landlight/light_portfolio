@@ -2,22 +2,22 @@ import React from 'react';
 import { FaChevronRight } from 'react-icons/fa';
 
 const titleStyle = {
-    'color': 'grey',
-    'font-weight': 'light',
-    'text-align': 'left',
-    'padding': '10px'
+  'color': 'grey',
+  'font-weight': 'light',
+  'text-align': 'left',
+  'padding': '10px'
 }
 const personalStyle = {
-    'color': 'grey',
-    'font-weight': 'light',
-    'padding': '10px',
-    'font-size': '22px'
+  'color': 'grey',
+  'font-weight': 'light',
+  'padding': '10px',
+  'font-size': '22px'
 }
 
 const icon = {
-    'width': '17px',
-    'height': '17px'
-  }
+  'width': '17px',
+  'height': '17px'
+}
 
 function Portfolio() {
     return (
