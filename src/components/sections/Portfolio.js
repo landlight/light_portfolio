@@ -11,7 +11,7 @@ const personalStyle = {
   'color': 'grey',
   'font-weight': 'light',
   'padding': '10px',
-  'font-size': '22px'
+  'font-size': '17px'
 }
 
 const icon = {
@@ -31,22 +31,22 @@ function Portfolio() {
           <div className="personalinfo">
             <h3 className="text-uppercase" style={titleStyle}>Personal Info</h3>
             <div style={personalStyle}>
-              <span><FaChevronRight style={icon}/>  Name : <strong class="text-uppercase">Chit Khine</strong></span> 
+              <span><FaChevronRight style={icon}/>  Name : <span class="text-uppercase">Chit Khine</span></span> 
             </div> 
             <div style={personalStyle}>   
-              <span><FaChevronRight style={icon}/>  Nickname : <strong class="text-uppercase">Light</strong></span> 
+              <span><FaChevronRight style={icon}/>  Nickname : <span class="text-uppercase">Light</span></span> 
             </div>
             <div style={personalStyle}>
-              <span><FaChevronRight style={icon}/>  Highest Degree : <strong class="text-uppercase">Master of Science (IT)</strong></span> 
+              <span><FaChevronRight style={icon}/>  Highest Degree : <span class="text-uppercase">Master of Science (IT)</span></span> 
             </div>
             <div style={personalStyle}>
-              <span><FaChevronRight style={icon}/>  Phone : <strong class="text-uppercase">+66958163472</strong></span> 
+              <span><FaChevronRight style={icon}/>  Phone : <span class="text-uppercase">+66958163472</span></span> 
             </div> 
             <div style={personalStyle}>   
-              <span><FaChevronRight style={icon}/>  Email : <strong>ck.light@gmail.com</strong></span> 
+              <span><FaChevronRight style={icon}/>  Email : <span>ck.light@gmail.com</span></span> 
             </div>
             <div style={personalStyle}>   
-              <span><FaChevronRight style={icon}/>  Address : <strong class="text-uppercase">Bangkok, Thailand</strong></span> 
+              <span><FaChevronRight style={icon}/>  Address : <span class="text-uppercase">Bangkok, Thailand</span></span> 
             </div>
           </div>
           <div className="personalskills">

@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 import React, { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 
@@ -10,10 +11,12 @@ function NavBar(props) {
       return 'active';
     }
   }
-  function myFunction() {
+  function navTrigger(id) {
     let x = document.getElementById("myTopnav");
     if (x.className === "topnav") {
-      x.className += " responsive";
+      if (id != 'home') {
+        x.className += " responsive";
+      }
     } else {
       x.className = "topnav";
     }
@@ -23,6 +26,7 @@ function NavBar(props) {
     if (divHeight) {
       window.scrollTo(0, divHeight.offsetTop-53);
     }
+    navTrigger(id);
     setActive(id);
   }
   return (
@@ -30,7 +34,7 @@ function NavBar(props) {
       {props.navItems.map(item => (
         <a className={activeClass(item.id)} onClick={() => scrollActive(item.id)} >{item.name}</a> 
       ))}
-      <a className="icon" onClick={myFunction}>
+      <a className="icon" onClick={navTrigger}>
         <FaBars />
       </a>
     </div>
