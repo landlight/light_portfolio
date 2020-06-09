@@ -192,7 +192,7 @@ ul.timeline>li:before {
     float: right;
     display: block;
   }
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {position: fixed;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -231,7 +231,7 @@ ul.timeline>li:before {
     width: 100%;
   }
   .containers {
-    padding: 5vh;
+    padding: 3vh;
     margin: 10px;
   }
 }
