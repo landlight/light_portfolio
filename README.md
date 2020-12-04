@@ -5,6 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 **How to run** 
 
 `npm install`
+
 `npm start`
 
 You are good to go!!!
