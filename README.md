@@ -2,7 +2,7 @@ I have learned react a few weeks ago and decided to create my own portfolio usin
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-*How to run* 
+**How to run** 
 
 `npm install`
 `npm start`
